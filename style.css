@@ -1,0 +1,21 @@
+
+.Primeira_Div_Class{
+    background-color: #198c6d7d;
+}
+
+.principal{
+    background: lightgray;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.colunm_Label_Input{
+    display: flex;
+    flex-direction: column;
+}
