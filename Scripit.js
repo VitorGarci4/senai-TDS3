@@ -1,10 +1,12 @@
 function soma(){
-    var num1 = document.getElementById("num1").valueAsNumber; 
+    var num1 = document.getElementById("num1").valueAsNumber;
     var num2 = document.getElementById("num2").valueAsNumber;
-    var result = num1 + num2;
-    document.getElementById("Soma").textContent = result.toFixed(2);
-
+    var res = num1 + num2;
+    document.getElementById("resSoma").textContent = res.toFixed(2);
 }
+
+
+
 
 function subtração(){
     var numero1 = document.getElementById("numero1").valueAsNumber; 
@@ -35,6 +37,21 @@ function media(){
     var resMedia = (media1 + media2 + media3) / 3;
     
     var x = document.getElementById("resMedia");
+    var resboa = document.getElementById("cond");
+    var resruim = document.getElementById("condi")
+    
+    if(resMedia > 7){
+        x.style.background = "green"
+        resboa.style.background = "black"
+        resboa.style.background = "green"
+        resruim.style.background = "red"
+    }else{
+        x.style.background = "red"
+        resruim.style.background = "black"
+        resruim.style.background = "red"
+        resboa.style.background = "green"
+    }
+
     console.log(x)
     
     document.getElementById("resMedia").textContent = resMedia.toFixed(2);

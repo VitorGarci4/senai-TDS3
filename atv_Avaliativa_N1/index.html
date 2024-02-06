@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: rgb(48, 216, 194);
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+        }
+
+        a {
+            color: white;
+            opacity: 0.8;
+            text-decoration: none;
+            transition: all 200ms linear;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            cursor: pointer;
+            opacity: 1;
+        }
+
+        .rounded-image {
+            border-radius: 50%; /* Alterado para 50% para criar um círculo */
+            overflow: hidden;
+            display: block;
+            margin: 0 auto; /* Centraliza a imagem horizontalmente */
+        }
+
+        .profile01 {
+            width: 100%;
+            height: 500px;
+            background-color: rgb(94, 124, 94);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#p1">Perfil 01</a></li>
+            <li><a href="#p2">Perfil 02</a></li>
+            <li><a href="#tec">Tecnologias</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </header>
+
+    <div id="p1" class="profile01">
+        <img class="rounded-image" src="https://img.freepik.com/fotos-premium/linda-paisagem_849761-24073.jpg" alt="praia foda bb">
+        
+        <p>Perfil 01</p>
+    </div>
+
+    <div id="p2" class="profile02">
+        <p>Perfil 02</p>
+    </div>
+
+    <div id="tec" class="tec">
+        <p>Tecnologias</p>
+    </div>
+
+    <div id="contact" class="contact">
+        <p>Contato</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Adicione box-sizing para evitar problemas de layout */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Adicione uma fonte padrão para o corpo */
+}
+
+header {
+    background-color: rgb(48, 216, 194);
+    width: 100%;
+    padding: 10px 0; /* Adicione algum preenchimento para espaçamento interno */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+a {
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+    transition: all 200ms linear;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.section {
+    width: 100%;
+    height: 500px;
+}
+
+.profile01 {
+    background-color: rgb(94, 124, 94);
+}
+
+.profile02 {
+    background-color: yellow;
+}
+
+.tec {
+    background-color: grey;
+}
+
+.contact {
+    background-color: red;
+}
+.rounded-image{
+    /* Seu CSS para centralizar a imagem no canto esquerdo da tela */
+.center-left-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+}
