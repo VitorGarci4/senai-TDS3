@@ -1,21 +1,16 @@
-
-.Primeira_Div_Class{
-    background-color: #198c6d7d;
-}
-
-.principal{
-    background: lightgray;
-    width: 100vw;
-    height: auto;
+body {
+    background: lightgrey;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-}
-
-.colunm_Label_Input{
-    display: flex;
-    flex-direction: column;
-}
+    height: 100vh;
+    gap: 2vh;
+  }
+  
+  .wrap-style {
+    padding: 10px;
+    color: grey;
+    background: white;
+    font-family: "Roboto Mono", monospace;
+  }

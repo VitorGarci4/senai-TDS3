@@ -1,57 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="Primeira_Div_Class">
-        <h1>Atividade 01</h1>
-        <p>Primeira atividade html da aula TDS3</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <title>Estudo 01</title>
+    <style>
+      .show-div {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap" class="wrap-style">
+      <h1>Soma</h1>
+      <p>Este é um parágrafo de exemplo.</p>
+      <div>
+        <label for="num1">Número 1:</label>
+        <input type="number" id="num1" />
+        <br />
+        <label for="num2">Número 2:</label>
+        <input type="number" id="num2" />
+      </div>
     </div>
-
-    <div class="principal">
-        <div>
-            <h5>cauculo de soma</h5>
-            <div class="colunm_Label_Input">
-                
-            </div>
-
-            <label for="num1">numero 01</label>
-            <input type="number" placeholder="insira um numero"/>
-            <br/>
-            <br/>
-            <label for="num1">numero 02</label>
-            <input type="number" placeholder="insira um numero"/>
-        </div>
-        
-        <div>
-            <br>
-            <br>
-            <h5>cauculo de subtração</h5>
-            <label for="num1">numero 01</label>
-            <input type="number" placeholder="insira um numero"/>
-            <br/>
-            <br/>
-            <label for="num1">numero 02</label>
-            <input type="number" placeholder="insira um numero"/>
-        </div>
-    
-        <div>
-            <br>
-            <br>
-            <h5>cauculo de divisão</h5>
-            <label for="num1">numero 01</label>
-            <input type="number" placeholder="insira um numero"/>
-            <br/>
-            <br/>
-            <label for="num1">numero 02</label>
-            <input type="number" placeholder="insira um numero"/>
-        </div>
+    <div>
+      <button onclick="somar()">Mostrar</button>
     </div>
-    
-    
-</body>
+    <div id="show-div" class="show-div">
+      <p>Resultado: <span id="resultado"></span></p>
+    </div>
+    <button onclick="limpar()">LIMPAR</button>
+  </body>
 </html>
