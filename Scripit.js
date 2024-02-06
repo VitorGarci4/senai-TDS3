@@ -28,6 +28,18 @@ function média(){
 }
 
 
-function limpar() {
-  window.location.reload();
+function media(){
+    var media1 = document.getElementById("media1").valueAsNumber;
+    var media2 = document.getElementById("media2").valueAsNumber;
+    var media3 = document.getElementById("media3").valueAsNumber;
+    var resMedia = (media1 + media2 + media3) / 3;
+    
+    var x = document.getElementById("resMedia");
+    console.log(x)
+    
+    document.getElementById("resMedia").textContent = resMedia.toFixed(2);
+}
+
+function limpar(){
+    window.location.reload();
 }
