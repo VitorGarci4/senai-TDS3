@@ -61,12 +61,17 @@ a:hover {
     background-color: red;
 }
 .rounded-image{
-    /* Seu CSS para centralizar a imagem no canto esquerdo da tela */
-.center-left-image {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-}
 
+    
+    position: relative; 
+    top: 50px;         
+    left: 150px;         
+    width: 300px;        
+    height: 150px;       
+    
+}.img01 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }

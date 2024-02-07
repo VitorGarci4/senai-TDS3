@@ -7,89 +7,54 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css"/>
     <script src="script.js"></script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-        }
-
-        header {
-            background-color: rgb(48, 216, 194);
-            width: 100%;
-            padding: 10px 0;
-        }
-
-        ul {
-            list-style: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-            width: 100%;
-        }
-
-        a {
-            color: white;
-            opacity: 0.8;
-            text-decoration: none;
-            transition: all 200ms linear;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            cursor: pointer;
-            opacity: 1;
-        }
-
-        .rounded-image {
-            border-radius: 50%; /* Alterado para 50% para criar um círculo */
-            overflow: hidden;
-            display: block;
-            margin: 0 auto; /* Centraliza a imagem horizontalmente */
-        }
-
-        .profile01 {
-            width: 100%;
-            height: 500px;
-            background-color: rgb(94, 124, 94);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-    </style>
 </head>
 <body>
     <header>
         <ul>
+            
             <li><a href="#p1">Perfil 01</a></li>
             <li><a href="#p2">Perfil 02</a></li>
             <li><a href="#tec">Tecnologias</a></li>
             <li><a href="#contact">Contato</a></li>
         </ul>
     </header>
-
-    <div id="p1" class="profile01">
-        <img class="rounded-image" src="https://img.freepik.com/fotos-premium/linda-paisagem_849761-24073.jpg" alt="praia foda bb">
+    
+    
         
-        <p>Perfil 01</p>
-    </div>
+    <title>Imagem Circular</title>
+    
+    <div id="p1" class="profile01">
+        
+        <img class="img01" src="https://i.pinimg.com/736x/93/ec/c4/93ecc45f636963ca2e825d8b91c3276d.jpg" alt="praia foda bb">
+        <p>perfil 01</p>
+        <textarea name="caixa_de_text" id="profile01" cols="10" rows="5"></textarea>
+        
 
-    <div id="p2" class="profile02">
-        <p>Perfil 02</p>
-    </div>
+    <div id="p2"></div>
 
+
+        <p>perfil 02</p>
+
+        <div>
+            <h3>contato</h3>
+            <p>mande uma menssagem para nosso whats</p>
+        </div>
+        <div>
+            <label for=""></label>
+            <input type="text" nome="" id= "">
+
+        </div>
+        <div>
+            <label for="Menssagem"></label>
+            <textarea type="text" id=""></textarea>
+        </div>
+        
+    </div>
     <div id="tec" class="tec">
-        <p>Tecnologias</p>
+        <p>tecnologias</p>
     </div>
-
     <div id="contact" class="contact">
-        <p>Contato</p>
+        <p>contato</p>
     </div>
 </body>
 </html>
